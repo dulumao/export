@@ -27,7 +27,7 @@ class Export
      * @param string $lf LF char
      * @return mixed|string
      */
-    public static function toJsonCode($data, $lf = "\n")
+    public static function toJsonCode($data, $lf = PHP_EOL)
     {
         return static::parser($data, 'json', $lf);
     }
@@ -38,7 +38,7 @@ class Export
      * @param string $lf LF char
      * @return mixed|string
      */
-    public static function toArrayCode($data, $lf = "\n")
+    public static function toArrayCode($data, $lf = PHP_EOL)
     {
         return static::parser($data, 'array', $lf);
     }
