@@ -1,5 +1,7 @@
 Returns a pretty string representation of a variable.
 
+返回数组或对象的源码字符串
+
 Install
 =======
 
